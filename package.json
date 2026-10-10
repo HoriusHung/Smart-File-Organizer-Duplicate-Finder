@@ -1,0 +1,27 @@
+{
+  "name": "smart-file-organizer-duplicate-finder",
+  "version": "1.0.0",
+  "description": "A safe, local Windows-friendly Node.js CLI to scan folders, find duplicate files by SHA-256, and organize files into category folders with dry-run, confirmation, manifest and undo.",
+  "keywords": [
+    "cli",
+    "file-organizer",
+    "duplicate-finder",
+    "sha256",
+    "nodejs",
+    "windows"
+  ],
+  "author": "To_Hung",
+  "license": "MIT",
+  "main": "src/cli.js",
+  "type": "commonjs",
+  "bin": {
+    "organizer": "bin/organizer.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node scripts/run-tests.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}

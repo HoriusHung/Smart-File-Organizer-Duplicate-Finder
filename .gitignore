@@ -147,3 +147,13 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Generated reports (created by --out with a bare file name)
+reports/
+
+# Organize manifests (created by organize --apply)
+.organizer-manifests/
+*.manifest.json
+
+# Temporary report files (reports are written to .tmp first, then renamed)
+*.tmp
